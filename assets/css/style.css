@@ -114,27 +114,29 @@ footer {
 
 
 
-@media screen and (max-width: 640px){
-
-
-
-	h1 {
-		text-align: center;
+@media only screen and (max-width: 980px) {
+	nav {
+		margin-right: 10px;
 	}
+}
 
-
-	h5 {
-		text-align: center;
-	}
-
+@media only screen and (max-width: 768px) {
 	
-	footer {
+	nav {
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#masthead{
 		position: static;
-		bottom: 0;
+	}
+	#logo {
 		width: 100%;
 	}
-
-
+	nav a {
+		margin-right: 50px;
+	}
 }
 
 
