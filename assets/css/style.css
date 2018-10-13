@@ -1,0 +1,143 @@
+body {
+	background: url(../images/concrete_seamless.png);
+}
+
+.page-header {
+	color: #4aaaa5;
+	
+}
+
+.navbar-header {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+#navbar {
+	background-color: white;
+	
+}
+
+
+#nav {
+	color: white;
+	font-size: 28px;
+}
+
+#nav1 {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#about {
+	border-right: 1px solid #777;
+	padding-right: 13px;
+}
+
+#border {
+	border-bottom: 1px solid #777;
+	width: 90%;
+	margin-left: 5px;
+}
+
+li {
+	display: inline-block;
+	margin-left: 5px;
+	
+}
+
+h5 {
+	color: #4aaaa5;
+}
+
+
+h2 {
+	color: #4aaaa5;
+}
+
+img {
+	height: 200px;
+	width: 175px;
+	float: left;
+	padding: 7px;
+}
+
+#container {
+	border: 1px solid white;
+	box-sizing: border-box;
+	height: 390px;
+	width: 500px;
+	background-color: white;
+	margin-top: 54px;
+}
+
+#portfolio {
+	border: 1px solid white;
+  	box-sizing: border-box;
+  	height: 855px;
+  	width: 500px;
+  	background-color: white;
+  	margin-top: 54px;
+}
+
+.work {
+	float: left;
+}
+
+
+#message {
+	margin-left: 12px;
+}
+
+.panel 
+.thumbnail{
+	background-color: #ffffff;
+	margin-bottom: 50px;
+}
+
+
+.btn-group{
+	padding: 75px;
+	margin: 20px;
+}
+
+
+footer {
+	background-color: #666666;
+	width: 100%;
+	margin-bottom: -196px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+	position: static;
+	bottom: 0px;
+}
+
+
+
+@media screen and (max-width: 640px){
+
+
+
+	h1 {
+		text-align: center;
+	}
+
+
+	h5 {
+		text-align: center;
+	}
+
+	
+	footer {
+		position: static;
+		bottom: 0;
+		width: 100%;
+	}
+
+
+}
+
+
+
+
+
